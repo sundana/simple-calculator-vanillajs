@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.kalkulator {
+  width: 400px;
+  background-color: silver;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.nama-aplikasi {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.display {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 0.75rem;
+  text-align: right;
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+  font-family: monospace;
+  font-size: 2rem;
+}
+
+.tombol {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  height: 300px;
+}
+
+button {
+  font-size: 1.5rem;
+}
